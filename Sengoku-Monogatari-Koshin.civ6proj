@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>My Custom Mod</Name>
+    <Guid>d9dda454-be43-4b38-9686-8921f83791ef</Guid>
+    <ProjectGuid>2ac9a83d-e375-4aea-8184-ead85e45bfad</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Tim</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>Sengoku-Monogatari-Koshin</AssemblyName>
+    <RootNamespace>Sengoku-Monogatari-Koshin</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Art\Icons\Akazonae icon concept 1 256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Akazonae icon concept 2 256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Noroshi icon 20x65.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Noroshi icon original size.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Koshin Icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead background only 2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead background only.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead full.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead leader only half cropped.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead leader only.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Takeda Shingen Icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Takeda Shingen Leaderhead.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Akazonae and Noroshi civilopedia text.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Koshin_City List.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Koshin_Dialogue and DOM.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Shinano no Kuni - Ancient_Classical.mp3">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Shinano no Kuni - Atomic_Information.ogg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Shinano no Kuni - Industrial_Modern.ogg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Misc\Shinano no Kuni - Medieval_Renaissance.mp3">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="README.md">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\Config_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\Icons_RisingSun_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\Icons_RisingSun_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\Koshin_CivilizationData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\Koshin_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\New Civilization Config Template.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\New Civilization Data Template.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\New Civilization Text Template.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="TCS Code\Player_ConfigData.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Art\" />
+    <Folder Include="Art\Icons\" />
+    <Folder Include="Misc\" />
+    <Folder Include="TCS Code\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
