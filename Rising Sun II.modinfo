@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with Notepad++ by thecrazyscotsman -->
+<Mod id="223c3830-5038-4dde-92b2-a8ffe799d98d" version="1">
+	<Properties>
+		<Name>LOC_RISINGSUN_NAME</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>LOC_RISINGSUN_TEASER</Teaser>
+		<Description>LOC_RISINGSUN_DESCRIPTION</Description>
+		<Authors>LOC_RISINGSUN_AUTHORS</Authors>
+		<SpecialThanks>LOC_RISINGSUN_THANKS</SpecialThanks>
+	</Properties>
+	<Dependencies />
+	<Dependencies />
+	<References />
+	<Blocks />
+
+	<Settings>
+		<Custom id="RISINGSUN_SETTING">
+			<Items>
+				<File>TCS Code/Player_ConfigData.xml</File>
+			</Items>
+		</Custom>
+		<Icons id="RISINGSUN_CONFIG_ICONS">
+			<Items>
+				<File>TCS Code/Icons_RisingSun_Civilizations.xml</File>
+				<File>TCS Code/Icons_RisingSun_Leaders.xml</File>
+			</Items>
+		</Icons>
+		<LocalizedText id="RISINGSUN_SETTING_TEXT">
+			<Items>
+				<File>TCS Code/Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	
+	<Components>
+		<UpdateDatabase id="RISINGSUN_COMPONENT">
+			<Items>
+				<File>TCS Code/Koshin_CivilizationData.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<Icons id="RISINGSUN_ICONS">
+			<Items>
+				<File>TCS Code/Icons_RisingSun_Civilizations.xml</File>
+				<File>TCS Code/Icons_RisingSun_Leaders.xml</File>
+			</Items>
+		</Icons>
+		<ImportFiles id="RISINGSUN_IMPORT">
+			<Items>
+				<File>Art/Icons/Koshin_22.dds</File>
+				<File>Art/Icons/Koshin_30.dds</File>
+				<File>Art/Icons/Koshin_36.dds</File>
+				<File>Art/Icons/Koshin_45.dds</File>
+				<File>Art/Icons/Koshin_48.dds</File>
+				<File>Art/Icons/Koshin_50.dds</File>
+				<File>Art/Icons/Koshin_64.dds</File>
+				<File>Art/Icons/Koshin_80.dds</File>
+				<File>Art/Icons/Koshin_256.dds</File>
+				<File>Art/Icons/Shingen_32.dds</File>
+				<File>Art/Icons/Shingen_45.dds</File>
+				<File>Art/Icons/Shingen_50.dds</File>
+				<File>Art/Icons/Shingen_55.dds</File>
+				<File>Art/Icons/Shingen_64.dds</File>
+				<File>Art/Icons/Shingen_80.dds</File>
+				<File>Art/Icons/Shingen_256.dds</File>
+			</Items>
+		</ImportFiles>
+		<LocalizedText id="RISINGSUN_COMPONENT_TEXT">
+			<Items>
+				<File>Koshin/Koshin_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>	
+	
+	<LocalizedText>
+		<Text id="LOC_RISINGSUN_NAME">
+			<en_US>Rising Sun II 0.1</en_US>
+		</Text>
+		<Text id="LOC_RISINGSUN_AUTHORS">
+			<en_US>Homusubi and thecrazyscotsman</en_US>
+		</Text>
+		<Text id="LOC_RISINGSUN_THANKS">
+			<en_US></en_US>
+		</Text>
+		<Text id="LOC_RISINGSUN_TEASER">
+			<en_US>Rising Sun II brings back a completely revamped version of the popular Japan split from Civ V .</en_US>		
+		</Text>
+		<Text id="LOC_RISINGSUN_DESCRIPTION">
+			<en_US></en_US>		
+		</Text>
+	</LocalizedText>	
+	
+	<Files>
+		<File>TCS Code/Player_ConfigData.xml</File>
+		<File>TCS Code/Config_Text.xml</File>
+		<File>TCS Code/Icons_RisingSun_Civilizations.xml</File>
+		<File>TCS Code/Icons_RisingSun_Leaders.xml</File>
+		<File>TCS Code/Koshin_CivilizationData.xml</File>
+		<File>TCS Code/Koshin_Text.xml</File>
+		<File>Art/Icons/Koshin_22.dds</File>
+		<File>Art/Icons/Koshin_30.dds</File>
+		<File>Art/Icons/Koshin_36.dds</File>
+		<File>Art/Icons/Koshin_45.dds</File>
+		<File>Art/Icons/Koshin_48.dds</File>
+		<File>Art/Icons/Koshin_50.dds</File>
+		<File>Art/Icons/Koshin_64.dds</File>
+		<File>Art/Icons/Koshin_80.dds</File>
+		<File>Art/Icons/Koshin_256.dds</File>
+		<File>Art/Icons/Shingen_32.dds</File>
+		<File>Art/Icons/Shingen_45.dds</File>
+		<File>Art/Icons/Shingen_50.dds</File>
+		<File>Art/Icons/Shingen_55.dds</File>
+		<File>Art/Icons/Shingen_64.dds</File>
+		<File>Art/Icons/Shingen_80.dds</File>
+		<File>Art/Icons/Shingen_256.dds</File>
+	</Files>
+</Mod>
