@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Koshin_Requirements -->
+<!-- Author: Tim -->
+<!-- DateCreated: 4/22/2017 5:31:27 PM -->
+<GameData>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" TraitType="TRAIT_CIVILIZATION_FURINKAZAN"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" TraitType="TRAIT_IMPROVEMENT_NOROSHI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" TraitType="TRAIT_UNIT_AKAZONAE"/>
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_FURINKAZAN" Name="LOC_TRAIT_FURINKAZAN_NAME" Description="LOC_TRAIT_FURINKAZAN_DESCRIPTION"/>
+	</Traits>
+
+	<RequirementSets>
+		<Row RequirementSetId="CIVILIZATION_IS_KOSHIN" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="CIVILIZATION_IS_KOSHIN" RequirementId="REQUIRES_CIVILIZATION_KOSHIN"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQUIRES_CIVILIZATION_KOSHIN" RequirementType="REQUIREMENT_CIV_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_CIVILIZATION_KOSHIN" Name="CivilizationType" Value="CIVILIZATION_KOSHIN"/>
+	</RequirementArguments>
+</GameData>

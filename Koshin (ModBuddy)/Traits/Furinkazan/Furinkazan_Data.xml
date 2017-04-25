@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Furinkazan -->
+<!-- Author: Tim -->
+<!-- DateCreated: 4/22/2017 4:58:56 PM -->
+<GameData>
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_FURINKAZAN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_NANSHOKU_NO_KATA" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<TypeTags>
+		<Row Type="ABILITY_FURINKAZAN" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_FURINKAZAN" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_FURINKAZAN" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_FURINKAZAN" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_FURINKAZAN" Tag="CLASS_HEAVY_CHARIOT"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_FURINKAZAN" Name="LOC_ABILITY_FURINKAZAN_NAME" Description="LOC_ABILITY_FURINKAZAN_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_FURINKAZAN" ModifierId="CAVALRY_IGNORE_HILLS"/>
+	</UnitAbilityModifiers>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_FURINKAZAN" Name="LOC_TRAIT_CIVILIZATION_FURINKAZAN_NAME" Description="LOC_TRAIT_CIVILIZATION_FURINKAZAN_DESCRIPTION"/>
+	</Traits>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FURINKAZAN</TraitType>
+			<ModifierId>TRAIT_GRANT_HILL_MOVEMENT_ABILITY</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_GRANT_HILL_MOVEMENT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>CAVALRY_IGNORE_HILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_MINE_ADJACENCY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<OwnerRequirementSetId>CIVILIZATION_IS_KOSHIN</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_MINE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_GRANT_HILL_MOVEMENT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FURINKAZAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAVALRY_IGNORE_HILLS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAVALRY_IGNORE_HILLS</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_MINE_ADJACENCY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GRANT_MINE_ADJACENCY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_FURINKAZAN" ModifierId="CAVALRY_IGNORE_HILLS"/>
+	</UnitAbilityModifiers>
+
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ModifierId>TRAIT_GRANT_MINE_ADJACENCY_GOLD</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+
+	<RequirementSets>
+		<Row RequirementSetId="PLOT_ADJACENT_TO_MINE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLOT_ADJACENT_TO_MINE" RequirementId="REQUIRES_ADJACENT_PLOT_IS_MINE"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQUIRES_ADJACENT_PLOT_IS_MINE" RequirementType="REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_ADJACENT_PLOT_IS_MINE" Name="ImprovementType" Value="IMPROVEMENT_MINE"/>
+	</RequirementArguments>
+</GameData>

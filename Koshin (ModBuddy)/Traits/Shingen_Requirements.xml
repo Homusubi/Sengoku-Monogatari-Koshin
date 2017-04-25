@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shingen_Requirements -->
+<!-- Author: Tim -->
+<!-- DateCreated: 4/22/2017 5:31:44 PM -->
+<GameData>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SHINGEN" TraitType="TRAIT_LEADER_NANSHOKU_NO_KATA"/>
+	</LeaderTraits>
+</GameData>

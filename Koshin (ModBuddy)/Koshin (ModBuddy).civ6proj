@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Sengoku Monogatari - Koshin</Name>
+    <Guid>5527d72f-4b57-47bf-bf6d-1beff63ad210</Guid>
+    <ProjectGuid>b5d888eb-6575-4075-b159-26647cceddb2</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>
+    </Teaser>
+    <Description>Koshin civilization for the Sengoku Monogatari mod.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Player_ConfigData.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Civilization/Koshin_Text.xml</File><File>Leader/Shingen_Text.xml</File><File>Traits/Trait_Text.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File priority="1">Art/Icons_RisingSun_Civilizations.xml</File><File priority="1">Art/Icons_RisingSun_Leaders.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>Koshin (ModBuddy)</AssemblyName>
+    <RootNamespace>Koshin (ModBuddy)</RootNamespace>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="DLC: Australia Civilization Pack" id="E3F53C61-371C-440B-96CE-077D318B36C0" />
+  <Reference type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
+  <Reference type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
+  <Reference type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Art\Icons\Akazonae icon concept 1 256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Akazonae icon concept 2 256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Koshin_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Noroshi icon 20x65.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Noroshi icon original size.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons\Shingen_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons_RisingSun_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Icons_RisingSun_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Koshin Icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead background only 2.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead background only.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead full.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead leader only half cropped.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Shingen leaderhead leader only.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Takeda Shingen Icon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Art\Takeda Shingen Leaderhead.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilization\KoshinGameplay.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Player_ConfigData.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Traits\Furinkazan\Furinkazan_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Traits\Koshin_Requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Traits\Nanshoku\Nanshoku_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Traits\Shingen_Requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Traits\Trait_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Uniques\Akazonae\Akazonae_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Uniques\Noroshi\Noroshi_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Art\Icons\" />
+    <Folder Include="Backup\" />
+    <Folder Include="Civilization" />
+    <Folder Include="Leader" />
+    <Folder Include="Art" />
+    <Folder Include="Traits\Furinkazan\" />
+    <Folder Include="Traits\Nanshoku\" />
+    <Folder Include="Traits" />
+    <Folder Include="Textures\" />
+    <Folder Include="Uniques\" />
+    <Folder Include="Uniques\Akazonae\" />
+    <Folder Include="Uniques\Noroshi\" />
+    <Folder Include="XLPs\" />
+    <Content Include="Backup\NewLeader_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Backup\NewLeader_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Backup\NewLeader_Felines.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Backup\NewLeader_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Backup\NewLeader_JasperKitty.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Backup\NewLeader_LitterBox.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Backup\NewLeader_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilization\Koshin_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Civilization\Koshin_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Shingen_Data.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Leader\Shingen_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
+    <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
+    <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
+    <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.tex" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+    <None Include="GettingStarted.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

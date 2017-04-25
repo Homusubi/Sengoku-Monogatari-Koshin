@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Trait_Text -->
+<!-- Author: Tim -->
+<!-- DateCreated: 4/23/2017 2:42:04 PM -->
+<GameData>
+	<LocalizedText>
+		<!--Trait Tags-->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_KOSHIN_NAME" Language="en_US">
+			<Text>Furinkazan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_KOSHIN_DESCRIPTION" Language="en_US">
+			<Text>Cavalry ignores Hill terrain cost and Mine improvements provide +1 [ICON_Gold] Gold per adjacent Mine.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SHINGEN_NAME" Language="en_US">
+			<Text>Nanshoku no Kata</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SHINGEN_DESCRIPTION" Language="en_US">
+			<Text>Units adjacent to other Takeda units heal 5 points per turn per adjacent military unit and Great General.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_AKAZONAE_NAME" Language="en_US">
+			<Text>Akazonae</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_AKAZONAE_DESCRIPTION" Language="en_US">
+			<Text>Cavalry unit unlocked just before gunpowder. Fairly strong, can move after attacking, 3 movement points.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_NOROSHI_NAME" Language="en_US">
+			<Text>Noroshi</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_NOROSHI_DESCRIPTION" Language="en_US">
+			<Text> Can be built outside of Koshin territory. +1 line of sight. Units stationed on a Noroshi can see hidden units and get a fortification bonus. If it's built adjacent to, but not inside, Koshin territory, but not on foreign territory, claims the tile that it's on</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

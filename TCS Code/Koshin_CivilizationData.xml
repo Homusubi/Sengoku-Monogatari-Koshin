@@ -173,30 +173,6 @@
 		<Row LeaderType="LEADER_SHINGEN" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGEN_QUOTE" QuoteAudio=""/>
 	</LeaderQuotes>
 	
-	<!--<HistoricalAgendas>
-		<Row LeaderType="LEADER_SHINGEN" AgendaType="AGENDA_"/>
-	</HistoricalAgendas>-->
-	
-	<!-- Each ListType should begin with the leader's name as a prefix...i.e. MontezumaCivics -->
-	<!--<AiListTypes>
-		<Row ListType="ShingenCivics"/>
-		<Row ListType="ShingenTechs"/>
-		<Row ListType="ShingenWonders"/>
-	</AiListTypes>
-	
-	<AiLists>
-		<Row ListType="ShingenWonders" LeaderType="TRAIT_LEADER_SHINGEN" System="Buildings"/>
-		<Row ListType="ShingenCivics" LeaderType="TRAIT_LEADER_SHINGEN" System="Civics"/>
-		<Row ListType="ShingenTechs" LeaderType="TRAIT_LEADER_SHINGEN" System="Technologies"/>
-	</AiLists>-->
-	
-	<!-- Multiple Items can fall under each ListType -->
-	<!--<AiFavoredItems>
-		<Row ListType="ShingenWonders" Item="BUILDING_"/>
-		<Row ListType="ShingenCivics" Item="CIVIC_"/>
-		<Row ListType="ShingenTechs" Item="TECH_"/>
-	</AiFavoredITems>-->
-	
 	<!-- Color is tied to Leader, not Civilization -->
 	<Colors>
 		<Row>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_KOSHIN" Kind="KIND_CIVILIZATION" />
+	</Types>
+
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_KOSHIN</CivilizationType>
+			<Name>LOC_CIVILIZATION_KOSHIN_NAME</Name>
+			<Description>LOC_CIVILIZATION_KOSHIN_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_KOSHIN_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" LeaderType="LEADER_SHINGEN" CapitalName="LOC_CIVLIZATION_KOFU" />
+	</CivilizationLeaders>
+
+	<CivilizationCitizenNames>
+		<!-- 10 default male names -->
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MALE_10"/>
+		<!-- 10 default female names -->
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_FEMALE_10" Female="true"/>
+		<!-- 10 default modern male names -->
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_MALE_10" Modern="true"/>
+		<!-- 10 default modern female names -->
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CitizenName="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_KOSHIN_LOCATION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_KOSHIN" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_KOSHIN_SIZE" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_KOSHIN" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_KOSHIN_POPULATION" SortIndex="30" />
+		<Row CivilizationType="CIVILIZATION_KOSHIN" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_KOSHIN_CAPITAL" SortIndex="40" />
+	</CivilizationInfo>
+
+	<CityNames>
+		<!-- There should be around 30 city names -->
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_KOFU"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_FUKASHI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_TAKATO"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_ZENKOJI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_TENMOKU"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_KAWANAKAJIMA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_INA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_SAKU"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_KISOFUKUSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_FUEFUKI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_KUWABARA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_YOSHIOKA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_TSUMAGO"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_SHIOJIRI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_MAGOME"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_FUJIYOSHIDA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_TAKASHIMA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_TOISHI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_ANKOKUJI"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_ODAIHARA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_MATSUO"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_KANNOMINE"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_KOJINYAMA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_FUKUYO"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_UEHARA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_SHIKA"/>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" CityName="LOC_CITY_NAME_NAGAKUBO"/>
+	</CityNames>
+
+</GameData>
+

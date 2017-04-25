@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Akazonae_Data -->
+<!-- Author: Tim -->
+<!-- DateCreated: 4/23/2017 2:46:33 PM -->
+<GameData>
+	<Types>
+		<Row Type="TRAIT_UNIT_AKAZONAE" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_AKAZONAE" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_AKAZONAE" Kind="KIND_UNIT"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_AKAZONAE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<Row Type="ABILITY_AKAZONAE" Tag="CLASS_AKAZONAE"/>
+		<Row Type="UNIT_AKAZONAE" Tag="CLASS_AKAZONAE"/>
+		<Row Type="UNIT_AKAZONAE" Tag="CLASS_HEAVY_CAVALRY"/>
+	</TypeTags>
+
+	<Units>
+		<Row>
+			<UnitType>UNIT_AKAZONAE</UnitType>
+			<BaseMoves>3</BaseMoves>
+			<Cost>100</Cost>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<BaseSightRange>2</BaseSightRange>
+			<ZoneOfControl>1</ZoneOfControl>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Name>LOC_UNIT_AKAZONAE_NAME</Name>
+			<Description>LOC_UNIT_AKAZONAE_DESCRIPTION</Description>
+			<CanCapture>1</CanCapture>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<PromotionClass>PROMOTION_CLASS_HEAVY_CAVALRY</PromotionClass>
+			<Combat>42</Combat>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<MandatoryObsoleteTech>TECH_GUNPOWDER</MandatoryObsoleteTech>
+			<TraitType>TRAIT_UNIT_AKAZONAE</TraitType>
+			<Maintenance>1</Maintenance>
+		</Row>
+	</Units>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_AKAZONAE" Name="LOC_ABILITY_AKAZONAE_NAME" Description="LOC_ABILITY_AKAZONAE_DESCRIPTION" Inactive="0"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_AKAZONAE" ModifierId="AKAZONAE_MOVE_AND_ATTACK"/>
+	</UnitAbilityModifiers>
+
+	<Traits>
+		<Row TraitType="TRAIT_UNIT_AKAZONAE" Name="LOC_TRAIT_UNIT_AKAZONAE_NAME" Description="LOC_TRAIT_UNIT_AKAZONAE_DESCRIPTION"/>
+	</Traits>
+
+	<Modifiers>
+		<Row ModifierId="AKAZONAE_MOVE_AND_ATTACK" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="AKAZONAE_MOVE_AND_ATTACK" Name="CanMove" Value="1"/>
+	</ModifierArguments>
+	
+</GameData>

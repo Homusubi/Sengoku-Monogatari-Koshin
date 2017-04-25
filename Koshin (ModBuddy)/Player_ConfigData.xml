@@ -1,0 +1,44 @@
+<GameInfo>
+	<!-- This is the information which shows up on the menu and loading screens -->
+	<Players>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_KOSHIN</CivilizationType>
+			<LeaderType>LEADER_SHINGEN</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_KOSHIN_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_KOSHIN</CivilizationIcon>
+			<LeaderName>LOC_LEADER_SHINGEN_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SHINGEN</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_KOSHIN_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_KOSHIN_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_KOSHIN</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_SHINGEN_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_SHINGEN_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SHINGEN</LeaderAbilityIcon>
+			<Portrait>ICON_LEADER_SHINGEN</Portrait>
+		</Row>
+	</Players>
+
+	<PlayerItems>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_KOSHIN</CivilizationType>
+			<LeaderType>LEADER_SHINGEN</LeaderType>
+			<Type>UNIT_AKAZONAE</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_UNIT_AKAZONAE_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_UNIT_AKAZONAE_DESCRIPTION</Description>
+			<Icon>ICON_AKAZONAE</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_KOSHIN</CivilizationType>
+			<LeaderType>LEADER_SHINGEN</LeaderType>
+			<Type>IMPROVEMENT_NOROSHI</Type>
+			<Name>LOC_TRAIT_CIVILIZATION_IMPROVEMENT_NOROSHI_NAME</Name>
+			<Description>LOC_TRAIT_CIVILIZATION_IMPROVEMENT_NOROSHI_DESCRIPTION</Description>
+			<Icon>ICON_NOROSHI</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameInfo>

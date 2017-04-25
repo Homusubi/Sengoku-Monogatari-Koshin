@@ -1,0 +1,234 @@
+<GameData>
+	<LocalizedText>
+	
+		<!--Civilization Tags-->
+		<Row Tag="LOC_CIVILIZATION_KOSHIN_NAME" Language="en_US">
+			<Text>Koshin</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KOSHIN_DESCRIPTION" Language="en_US">
+			<Text>Koshin Kingdom</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KOSHIN_ADJECTIVE" Language="en_US">
+			<Text>Koshin</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
+		<Row Tag="LOC_CIVINFO_KOSHIN_LOCATION" Language="en_US">
+			<Text>Japan</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_KOSHIN_SIZE" Language="en_US">
+			<Text>PLACEHOLDER</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_KOSHIN_POPULATION" Language="en_US">
+			<Text>PLACEHOLDER</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_KOSHIN_CAPITAL" Language="en_US">
+			<Text>Kofu</Text>
+		</Row>
+	
+		<!--City Tags-->
+		<Row Tag="LOC_CITY_NAME_KOFU" Language="en_US">
+			<Text>Kofu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUKASHI" Language="en_US">
+			<Text>Fukashi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAKATO" Language="en_US">
+			<Text>Takato</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZENKOJI" Language="en_US">
+			<Text>Zenkoju</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TENMOKU" Language="en_US">
+			<Text>Tenmoku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAWANAKAJIMA" Language="en_US">
+			<Text>Kawanakajima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INA" Language="en_US">
+			<Text>Ina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAKU" Language="en_US">
+			<Text>Saku</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KISOFUKUSHIMA" Language="en_US">
+			<Text>Kisofukushima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUEFUKI" Language="en_US">
+			<Text>Fuefuki</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KUWABARA" Language="en_US">
+			<Text>Kuwabara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YOSHIOKA" Language="en_US">
+			<Text>Yoshioka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TSUMAGO" Language="en_US">
+			<Text>Tsumago</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHIOJIRI" Language="en_US">
+			<Text>Shiojiri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAGOME" Language="en_US">
+			<Text>Magome</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUJIYOSHIDA" Language="en_US">
+			<Text>Fujiyoshida</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAKASHIMA" Language="en_US">
+			<Text>Takashima</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOISHI" Language="en_US">
+			<Text>Toishi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANKOKUJI" Language="en_US">
+			<Text>Ankokuji</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ODAIHARA" Language="en_US">
+			<Text>Odaihara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MATSUO" Language="en_US">
+			<Text>Matsuo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KANNOMINE" Language="en_US">
+			<Text>Kannomine</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KOJINYAMA" Language="en_US">
+			<Text>Kojinyama</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUKUYO" Language="en_US">
+			<Text>Fukuyo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UEHARA" Language="en_US">
+			<Text>Uehara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHIKA" Language="en_US">
+			<Text>Shika</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAGAKUBO" Language="en_US">
+			<Text>Nagakubo</Text>
+		</Row>
+		
+		<!--Citizen Tags-->
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MALE_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_FEMALE_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_MALE_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_KOSHIN_MODERN_FEMALE_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>

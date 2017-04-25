@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Leader_Data -->
+<!-- Author: Tim -->
+<!-- DateCreated: 4/17/2017 7:33:51 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_SHINGEN" Kind="KIND_LEADER"/>
+	</Types>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_KOSHIN" LeaderType="LEADER_SHINGEN" CapitalName="LOC_CITY_NAME_KOFU"/>
+	</CivilizationLeaders>
+
+	<Leaders>
+		<Row LeaderType="LEADER_SHINGEN" Name="LOC_LEADER_SHINGEN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SHINGEN" TraitType="TRAIT_LEADER_NANSHOKU_NO_KATA"/>
+	</LeaderTraits>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SHINGEN" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGEN_QUOTE" QuoteAudio=""/>
+	</LeaderQuotes>
+
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_SHINGEN_PRIMARY</Type>
+			<Red>0.5</Red>
+			<Green>0</Green>
+			<Blue>0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SHINGEN_SECONDARY</Type>
+			<Red>0.87</Red>
+			<Green>0.32</Green>
+			<Blue>0.09</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SHINGEN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_SHINGEN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SHINGEN_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+</GameData>
